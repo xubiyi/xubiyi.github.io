@@ -1,0 +1,37 @@
+<html>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<head>
+    <title>Monkey总结报告</title>
+    <style type="text/css">
+        body{background-color:#F0F0F0}
+        table{border-width:1;
+            border-color:#aabcfe;
+            border-collapse:collapse;}  
+        caption{margin:5}
+        th{padding:3 10 3 10;
+            border-width:1;
+            border-style:solid;
+            border-color:#8a9cde;
+            background-color: #b9c9fe;}
+        td{padding:3 10 3 10;
+            border-width:1;
+            border-style:solid;
+            border-color:#aabcfe;
+            background-color:#e8edff;}
+        tr:hover td{background-color:#d0dafd;}
+    </style>
+</head>
+<body>
+    <br /><p>生成时间：Wed Jan 15 09:32:27 2020</p><p>测试机型：MT6735</p><p>测试版本：6.0.007.P1.200109.360OS_360OS_PLATFORMMTK6_CN</p><br />
+    <table border="1">
+        <caption><b>Monkey执行情况</b></caption>
+        <tr><th>运行轮次</th><th>通过</th><th>失败</th><th>阻塞</th><th>通过率</th></tr><tr><td>2</td><td>0</td><td>2</td><td>0</td><td>0%</td></tr>
+    </table>
+    <br />
+    <br />
+    <table border="1">
+        <caption><b>Monkey问题总结</b></caption>
+        <tr><th>问题类型</th><th>问题原因</th><th>问题md5</th><th>问题详情</th><th>问题数量</th><th>轮次</th></tr><tr><th rowspan="1">ANR</th><td rowspan="1">com.qihoo360.mobilesafe:GuardService</td><td>ba69bd810f13396169b4675d8de9f913</td><td>ANR: com.qihoo360.mobilesafe:GuardService</td><td>1</td><td>1</td></tr><tr><th rowspan="1">CRASH</th><td rowspan="1">com.qiku.android.calendar</td><td>dbfd5da9442d604475b3e77aa7c4a43d</td><td>java.lang.NullPointerException: Attempt to invoke virtual method 'int com.qiku.android.calendar.newmonyhfragment.CalendarMonthView.getMonth()' on a null object reference</td><td>1</td><td>2</td></tr>
+    </table>
+</body>
+</html>
